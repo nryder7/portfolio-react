@@ -50,3 +50,41 @@ export const social = [
   //   icon: <FaBehance />,
   // },
 ];
+
+export const projectLinks = [
+  {
+    id: 1,
+    title: 'jobify-MERN',
+    sourceUrl: 'https://github.com/nryder7/jobify-mern',
+    deployedUrl: 'https://jobify-mern111.herokuapp.com',
+    description:
+      'Full stack application. Built with MongoDB,Express, React, and Node',
+  },
+  {
+    id: 2,
+    title: 'ecommerce-react',
+    sourceUrl: 'https://github.com/nryder7/ecommerce-react',
+    deployedUrl: 'https://ecommerce-react-111.netlify.app',
+    description: 'React',
+  },
+  {
+    id: 3,
+    title: 'ecommerce-API',
+    sourceUrl: 'https://github.com/nryder7/ecommerce-api',
+    deployedUrl: 'https://ecommerce111-1.herokuapp.com',
+    description: 'Express',
+  },
+  {
+    id: 4,
+    title: 'trivia-react',
+    sourceUrl: 'https://github.com/nryder7/trivia-react',
+    deployedUrl: 'https://trivia-react-111.netlify.app',
+    description: 'Express',
+  },
+  // {
+  //   id: 4,
+  //   title: 'jobs-api',
+  //   sourceUrl: 'https://github.com/nryder7/ecommerce-react',
+  //   deployedUrl: 'https://jobs-api-111.herokuapp.com/api-docs',
+  // },
+];

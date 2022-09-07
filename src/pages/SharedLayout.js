@@ -44,7 +44,9 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr;
   }
   .content {
-    width: 90vw;
+    width: var(--fluid-width);
+    max-width: 1100px;
+    /* max-width: var(--max-width); */
     margin: 0 auto;
     padding: 0;
     margin-top: -1.5rem;
